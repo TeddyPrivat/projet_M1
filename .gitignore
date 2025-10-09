@@ -1,12 +1,2 @@
-# Dossiers à ignorer
-node_modules/
-dist/
-.env
-.vscode/
-__pycache__/
 venv/
-
-# Fichiers temporaires
-*.log
-*.tmp
-.DS_Store
+.env
