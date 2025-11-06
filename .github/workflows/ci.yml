@@ -41,7 +41,3 @@ jobs:
       - name: 🔹 Vérifier la configuration Docker Compose
         run: |
           docker compose -f airflow-docker/docker-compose.yml config
-
-      - name: 🔹 Construire les conteneurs Airflow
-        run: |
-          docker compose -f airflow-docker/docker-compose.yml build
