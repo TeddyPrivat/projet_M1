@@ -44,4 +44,4 @@ jobs:
 
       - name: 🔹 Construire les conteneurs Airflow
         run: |
-          docker compose -f airflow-docker/docker-compose.yaml build
+          docker compose -f airflow-docker/docker-compose.yml build
