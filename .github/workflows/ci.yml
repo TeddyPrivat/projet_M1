@@ -26,9 +26,9 @@ jobs:
 
       - name: 🔹 Vérifier la syntaxe des scripts Python
         run: |
-          python -m py_compile login_bsky.py
-          python -m py_compile fetch_posts.py
-          python -m py_compile mongo_connection.py
+          python -m py_compile src/login_bsky.py
+          python -m py_compile src/fetch_posts.py
+          python -m py_compile src/mongo_connection.py
           python -m py_compile airflow-docker/dags/bsky_af_dag.py
 
   docker:
