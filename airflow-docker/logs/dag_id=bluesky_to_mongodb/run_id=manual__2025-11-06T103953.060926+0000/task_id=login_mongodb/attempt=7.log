@@ -1,0 +1,13 @@
+{"timestamp":"2025-11-06T12:23:03.085748","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-11-06T12:23:03.086198","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/bsky_af_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-11-06T12:23:03.216817Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:23:03.218402Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:23:03.218762Z","level":"info","event":"Current task name:login_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:23:03.219028Z","level":"info","event":"Dag name:bluesky_to_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:23:04.743100Z","level":"info","event":"✅ Connected to MongoDB Atlas!","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:23:04.743715Z","level":"info","event":"📂 Database: projet_bluesky","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:23:04.744140Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:23:04.744663Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:23:04.744983Z","level":"info","event":"Task operator:<Task(PythonOperator): login_mongodb>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:23:04.743346","level":"info","event":"Done. Returned value was: projet_bluesky","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-11-06T12:23:04.743543","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019a591e-c731-77c5-918c-f32bb7ea5e67'), task_id='login_mongodb', dag_id='bluesky_to_mongodb', run_id='manual__2025-11-06T10:39:53.060926+00:00', try_number=7, map_index=-1, hostname='8e3623e3851f', context_carrier={}, task=<Task(PythonOperator): login_mongodb>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=8, start_date=datetime.datetime(2025, 11, 6, 12, 23, 2, 748781, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}

@@ -1,0 +1,876 @@
+{"timestamp":"2025-11-06T12:42:04.830646","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-11-06T12:42:04.831111","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/bsky_af_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-11-06T12:42:04.969676Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:04.970734Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:04.971029Z","level":"info","event":"Current task name:fetch_and_save_posts","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:04.971523Z","level":"info","event":"Dag name:bluesky_to_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:06.544563Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:06.547295Z","level":"info","event":"🔍 Searching for 'politics' in language 'en' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:08.254213Z","level":"info","event":"✅ Inserted @nirlagn.bsky.social: Dismiss the bogus charges! www.nbcnews.com/politics/jus...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:08.477549Z","level":"info","event":"✅ Inserted @frightopenclose.bsky.social: How many contradictions in this short clip? I dont follow american politics clos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:08.712392Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:08.712815Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:08.713294Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:08.939793Z","level":"info","event":"✅ Inserted @b7bird.bsky.social: —> #LateNight ⦁ Monologue ⦁ #SethMeyers <—","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:08.942712Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:08.944187Z","level":"info","event":"#Democrats #Win Big on #ElectionDay","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:08.944444Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:09.168488Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:09.170747Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:09.171833Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:09.391011Z","level":"info","event":"✅ Inserted @adamserwer.bsky.social: A cool thing about american politics is that if you describe in a matter of fact","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:09.614797Z","level":"info","event":"✅ Inserted @maxboot.bsky.social: Trump remains wary about getting directly involved in Venezuela after a first-te","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:09.836014Z","level":"info","event":"✅ Inserted @hectorthehog.bsky.social: The way politics in the UK is heading I'd say it's not a question of \"if\" for me","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:10.065407Z","level":"info","event":"✅ Inserted @grace9367.bsky.social: I believe them. I got permanently banned and have no idea why. They don’t say. T","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:10.287051Z","level":"info","event":"✅ Inserted @ollymizzi99.bsky.social: Nuclear war is back on the big screen, a marker of the increasing tension brough","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:10.510592Z","level":"info","event":"✅ Inserted @thinkyparts.bsky.social: Kind of wild how the politics on this have changed. Makes me a little uncomforta","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:10.734357Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:10.734867Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:10.737061Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:10.960532Z","level":"info","event":"✅ Inserted @victorerikray.bsky.social: “Anti-Trump politics is affordability politics, and affordability politics is an","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:11.187530Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:11.188889Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:11.189782Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:11.409142Z","level":"info","event":"✅ Inserted @lipatp.bsky.social: Trump intervenes UK politics too. Trump himself is really bad for uk.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:11.409634Z","level":"info","event":"uk people","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:11.632587Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:11.633031Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:11.633525Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:11.864501Z","level":"info","event":"✅ Inserted @eddavey.libdems.org.uk: Elon Musk is deliberately using his platform to poison our politics and divide o","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:12.086680Z","level":"info","event":"✅ Inserted @rnavarre.bsky.social: I am getting more sold on the idea that the Cold War bipolar era was an extreme","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:12.312423Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:12.313160Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:12.313796Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:12.535702Z","level":"info","event":"✅ Inserted @promieniowanie.bsky.social: Bessides the allegations, have you got any sources that support your hypothesis","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:12.758057Z","level":"info","event":"✅ Inserted @aremay.bsky.social: I think the politics of it make it necessary, even if the fiscal returns are min","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:12.982211Z","level":"info","event":"✅ Inserted @osaka.zone: US GENERAL STRIKE (25th NOV - 2ND DEC)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:12.982856Z","level":"info","event":"blackoutthesystem.com","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:12.983384Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:12.983708Z","level":"info","event":"hit trump, the rep","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:13.206506Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:13.206975Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:13.207436Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:13.426992Z","level":"info","event":"✅ Inserted @colleenchanel.bsky.social: Zohran Mamdani's significant NYC election win is sending waves through U.S. poli","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:13.648848Z","level":"info","event":"✅ Inserted @greatgrebe.bsky.social: Democrats when they experience a genuine groundswell of support from a newly eng","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:13.880583Z","level":"info","event":"✅ Inserted @protemo.bsky.social: Our new #PROTEMOInsights draws on Katja Stempel’s article in 𝘚𝘵𝘢𝘵𝘪𝘴𝘵𝘪𝘤𝘴, 𝘗𝘰𝘭𝘪𝘵𝘪𝘤","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:14.103502Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:14.104588Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:14.105016Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:14.327600Z","level":"info","event":"✅ Inserted @csp-journal.bsky.social: New themed section: 'Transforming the welfare state from the margins: politics a","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:14.547471Z","level":"info","event":"✅ Inserted @gc613.bsky.social: www.palmerreport.com/politics/las...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:14.547998Z","level":"info","event":"Messaging—still about the pocketbook and wa","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:14.769303Z","level":"info","event":"✅ Inserted @chroniclesofe.bsky.social: Get your Early Morning 🌞news📰,views👀 & that GOOD GOOD HOT TEA☕️HERE! You just cl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:14.997824Z","level":"info","event":"✅ Inserted @myya11-2.bsky.social: FDJT is lying and does he know that, some of us are intelligent enough to know t","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:15.230879Z","level":"info","event":"✅ Inserted @portiamcgonagal.bsky.social: And he's going to demand applause and praise for a crisis he caused. Again.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:15.232511Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:15.233579Z","level":"info","event":"\"Re","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:15.461868Z","level":"info","event":"✅ Inserted @lying.bsky.social: The US government is now in the longest shutdown of its entire existence, beatin","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:15.684921Z","level":"info","event":"✅ Inserted @pissyrabbit.bsky.social: This is really worth celebrating and it’s a good reminder of how hyper local pol","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:15.908859Z","level":"info","event":"✅ Inserted @finalgirlboss.bsky.social: Perfect example of the kinds of viewpoints that are not debatable. No one asks w","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:16.130511Z","level":"info","event":"✅ Inserted @noirmale.bsky.social: The election results are definitely encouraging. However, we have congress & sen","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:16.352426Z","level":"info","event":"✅ Inserted @danielincornwall.bsky.social: From an actual tax policy POV this is right, but the politics is a real problem,","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:16.575003Z","level":"info","event":"✅ Inserted @mommabear87.bsky.social: Fetterman, you have never been a serious politician for the people. It doesn't m","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:16.797540Z","level":"info","event":"✅ Inserted @seenaswg.bsky.social: Excessive gloating is rarely a great idea.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:16.798564Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:16.799213Z","level":"info","event":"Especially on social media and in po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:17.021111Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:17.021830Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:17.022390Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:17.254289Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:17.254712Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:17.255096Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:17.474270Z","level":"info","event":"✅ Inserted @velospence.bsky.social: so much for FIFA \"staying out of politics\"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:17.695414Z","level":"info","event":"✅ Inserted @lipatp.bsky.social: Elon musk is an American he still intervenes uk politics.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:17.696424Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:17.697372Z","level":"info","event":"Americans have interv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:17.923906Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:17.925378Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:17.927088Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:18.151767Z","level":"info","event":"✅ Inserted @fatbadger442.bsky.social: That any union is affiliated to a party driven by hatred and the politics of the","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:18.378330Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:18.379255Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:18.380279Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:18.600620Z","level":"info","event":"✅ Inserted @dkfoster.bsky.social: After more than 7 years in power and a regular drumbeat of scandal, the Star's M","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:18.821025Z","level":"info","event":"✅ Inserted @whatevr11.bsky.social: He says politics is too hard","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:19.042714Z","level":"info","event":"✅ Inserted @buzzgrambo.bsky.social: Baltimore is pushing back. I won't allow it in my city.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:19.043443Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:19.043867Z","level":"info","event":"www.thebanner.com/polit","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:19.263206Z","level":"info","event":"✅ Inserted @nwstaydet.bsky.social: If he can’t say it’s rw violence then f-him. “Violence in politics” is not speci","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:19.482746Z","level":"info","event":"✅ Inserted @ellcp.bsky.social: bro this app is just american politics and furry art 💀 the algorithm is worse th","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:19.702773Z","level":"info","event":"✅ Inserted @maxboot.bsky.social: Even for this court, allowing any president to impose the largest tax increase s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:19.924782Z","level":"info","event":"✅ Inserted @christyceeck.bsky.social: A great feature from @alexboyd.bsky.social.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:19.925275Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:19.925581Z","level":"info","event":"“It was important to me that it was","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:20.151303Z","level":"info","event":"✅ Inserted @acarpen.bsky.social: He stood for Parliament in Cambridge in 1863 but because we were such a corrupt","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:20.375497Z","level":"info","event":"✅ Inserted @scricket.bsky.social: www.syracuse.com/politics/cny...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:20.376398Z","level":"info","event":"It’s finally sinking in.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:20.600629Z","level":"info","event":"✅ Inserted @existential122.bsky.social: Canadian premiers are too quick to override rights, former PM Jean Chrétien warn","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:20.825989Z","level":"info","event":"✅ Inserted @global-news-2024.bsky.social: Breaking: Lammy says spike in mistaken prison releases is ‘unacceptable’ and wel","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:21.053608Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:21.054731Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:21.055777Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:21.271174Z","level":"info","event":"✅ Inserted @cryptan.bsky.social: www.motherjones.com/politics/202...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:21.491160Z","level":"info","event":"✅ Inserted @runningrunner.bsky.social: I have a theory that \"everything, eventually, stops working.\" Nate Silver-style","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:21.711103Z","level":"info","event":"✅ Inserted @bizzlemcdizzle.bsky.social: www.nbcnews.com/politics/pol...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:21.944101Z","level":"info","event":"✅ Inserted @kythra.bsky.social: you could just give them a one time award. Done. No need to give them the right","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:22.165201Z","level":"info","event":"✅ Inserted @jononcomms.bsky.social: I think you have to be a certain sort of damaged to discuss politics anywhere on","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:22.389470Z","level":"info","event":"✅ Inserted @drip4.bsky.social: Good to hear some deep dive insights","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:22.389862Z","level":"info","event":"on American politics/polices/dysfunctions b","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:22.610500Z","level":"info","event":"✅ Inserted @charleyonthemta.bsky.social: Furthermore: It’s a false choice between the climate movement’s political failur","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:22.831028Z","level":"info","event":"✅ Inserted @truekook.blacksky.app: And once they get in those seats the name recognition that drives a lot of local","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:23.054378Z","level":"info","event":"✅ Inserted @bozsle33.bsky.social: #politics #TheNatureOfMoney","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:23.054996Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:23.055327Z","level":"info","event":"Today's episode of 'Let me fuck with your brain\", w","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:23.285345Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:23.286041Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:23.286675Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:23.522370Z","level":"info","event":"✅ Inserted @calvenhobbes.bsky.social: The \"I Don't really care do you\" christmas hating, illegal immigrant. In this ad","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:23.744232Z","level":"info","event":"✅ Inserted @margotsibley25.bsky.social: www.wsj.com/politics/pol...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:23.744799Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:23.745206Z","level":"info","event":"Tariffs as applied are blatantly wrong.  The only e","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:23.963945Z","level":"info","event":"✅ Inserted @smokedmacaque.bsky.social: He's too angry at demons to have ever said this, but I'm sure he would if given","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:24.182854Z","level":"info","event":"✅ Inserted @gusufan.bsky.social: Born to be a temptress, forced to engage in war and politics 😔","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:24.407507Z","level":"info","event":"✅ Inserted @andymcdonaldmp.bsky.social: The Tony Blair Institute is urging the Labour Govt to abandon its pledge on day-","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:24.667488Z","level":"info","event":"✅ Inserted @k1da1983.bsky.social: People up down, left right know what gerrymandering means, but we should also be","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:24.899134Z","level":"info","event":"✅ Inserted @pissyrabbit.bsky.social: I love the diBlasio erasure.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:24.899980Z","level":"info","event":"I’m from brooklyn. I live in brooklyn. No one here","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:25.121974Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:25.122567Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:25.123032Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:25.345482Z","level":"info","event":"✅ Inserted @egocantos.bsky.social: This year’s call for applications for the Prize Post Doctoral Fellowships in Pol","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:25.568430Z","level":"info","event":"✅ Inserted @mothpiss.bsky.social: ultimately your finances have little say in how you interact w CULTURAL class po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:25.790266Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:25.792387Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:25.793552Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:26.013468Z","level":"info","event":"✅ Inserted @vincentsworkisdone.bsky.social: As an Australian with fairly fresh eyes who has observed US politics for around","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:26.253232Z","level":"info","event":"✅ Inserted @andrewsparrowgdn.bsky.social: Latest suspension means Reform UK has now lost 9 of its 57 Kent county councillo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:26.474234Z","level":"info","event":"✅ Inserted @kensil.bsky.social: I review Furious Minds by","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:26.475144Z","level":"info","event":"@lkatfield.bsky.social , a book that puts recent histo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:26.697566Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:26.698108Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:26.698726Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:26.938256Z","level":"info","event":"✅ Inserted @lyndagood.bsky.social: This isn’t politics anymore. It’s moral collapse.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:26.939871Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:26.940285Z","level":"info","event":"A baby. One year old. Still i","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:27.177868Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:27.178406Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:27.178760Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:27.406832Z","level":"info","event":"✅ Inserted @b7bird.bsky.social: —> #TheLateShow ⦁ Meanwhile ⦁ #StephenColbert <—","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:27.407760Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:27.408199Z","level":"info","event":"#TomBrady's Dog Clone","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:27.408583Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:27.410562Z","level":"info","event":"A Very","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:27.637962Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:27.638640Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:27.639024Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:27.858199Z","level":"info","event":"✅ Inserted @phillyjoed.bsky.social: Pro-ICE sheriff ousted by PA voters in competitive Bucks County north of Philly","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:28.086925Z","level":"info","event":"✅ Inserted @tabbys-corner.bsky.social: TRUMP IS THE WORST PRESIDENT IN AMERICAN 🇺🇸 HISTORY AND POLITICS!","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:28.087352Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:28.087669Z","level":"info","event":"RELEASE THE E","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:28.321143Z","level":"info","event":"✅ Inserted @good-joe.bsky.social: It's wild that on Twitter Ramaswamy posted \"we need to start focusing on the aff","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:28.547387Z","level":"info","event":"✅ Inserted @sandycortez.bsky.social: Under Biden, only two Democrats Joe Manchin & Kysten Sinema voted not to end the","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:28.773121Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:28.776518Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:28.777709Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:28.998744Z","level":"info","event":"✅ Inserted @jacobin1792.bsky.social: I have voted Democratic my entire life. The leadership of this party are weak kn","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:29.227119Z","level":"info","event":"✅ Inserted @jamesdaustin.bsky.social: Normies are on insta not twitter/bsky (But i also don't think the IRL/online div","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:29.449015Z","level":"info","event":"✅ Inserted @newnarrative.bsky.social: The president has exercised tax and spending powers that belong to Congress. The","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:32.242268Z","level":"info","event":"✅ Inserted @billbj6.bsky.social: The shabby state of UK politics.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:32.484220Z","level":"info","event":"✅ Inserted @dougcoulson.bsky.social: Trump’s ‘Might Makes Right’ Politics Are Bringing Out the Worst in America www.r","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:32.708100Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:32.708925Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:32.709649Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:32.930744Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:32.931293Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:32.931581Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:33.156099Z","level":"info","event":"✅ Inserted @seeyouspaceoomfie.bsky.social: I don't know and I don't have the language and academic skillset to find out, bu","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:33.376502Z","level":"info","event":"✅ Inserted @alexsz.bsky.social: As it is so often the case, Hungarian politics is a premonition of what awaits t","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:33.600858Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:33.605242Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:33.611786Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:33.826301Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:33.827277Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:33.828088Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:34.048108Z","level":"info","event":"✅ Inserted @pattern-chaser.bsky.social: \"Given the fact that #Labour, having welded itself to #right-wing politics, #ine","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:34.274500Z","level":"info","event":"✅ Inserted @kathynavackas.bsky.social: I hope there are more people that leave the Cons. we have to stop the decline in","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:34.504704Z","level":"info","event":"✅ Inserted @lt14gjc.bsky.social: Recommend @zeteo.com; @mehdirhasan.bsky.social & @premthakker.bsky.social give t","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:34.729913Z","level":"info","event":"✅ Inserted @dymaxion.infosec.exchange.ap.brid.gy: I'll take a break from the politics now for a brief word from our sponsors:","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:34.730710Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:34.731223Z","level":"info","event":"If","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:34.954281Z","level":"info","event":"✅ Inserted @geekkun.bsky.social: Itoi's writings (of which there are many, the man is mainly a writer) make it cl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:35.179850Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:35.181008Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:35.181994Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:35.403769Z","level":"info","event":"✅ Inserted @simonluisi.bsky.social: When Trump first got elected, MAGA would say, \"They are losing their damn minds","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:35.624664Z","level":"info","event":"✅ Inserted @roterote.bsky.social: Personally I think of it as Politics is Downstream of culture but Politics and C","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:35.851418Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:35.852928Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:35.854295Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:36.074550Z","level":"info","event":"✅ Inserted @holeintheheadesign.bsky.social: www.reddit.com/r/politics/s...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:36.299174Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:36.300378Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:36.301512Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:36.524358Z","level":"info","event":"✅ Inserted @pennadem.bsky.social: The billionaires of this world seem to think it's their right to interfere in th","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:36.750238Z","level":"info","event":"✅ Inserted @truebuddhism.bsky.social: FREE PROMO on YouTube.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:36.750709Z","level":"info","event":"Email us short (30s - 1m) video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:36.751141Z","level":"info","event":"#Dance #Yoga #Posing #Po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:36.974060Z","level":"info","event":"✅ Inserted @drjaybee.bsky.social: I would argue that delivery matters more. There’s a cost to reducing politics to","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:42.733995Z","level":"info","event":"✅ Inserted @jenvictor.bsky.social: How can these two seemingly contradictory things about US politics both be true?","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:42.957356Z","level":"info","event":"✅ Inserted @judah-grunstein.bsky.social: If I were granted a wish to accomplish one thing in my work on global politics,","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:43.181171Z","level":"info","event":"✅ Inserted @mrboom.bsky.social: I've stopped buying poppies because I hate the stupid politics. I am sure this i","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:43.404970Z","level":"info","event":"✅ Inserted @chllsp.bsky.social: After the election results on Monday Democrats would be fools to throw everythin","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:43.624431Z","level":"info","event":"✅ Inserted @greatunclebob.bsky.social: www.thebanner.com/politics-pow...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:43.875669Z","level":"info","event":"✅ Inserted @stateofthecity.bsky.social: First: there's no backlash here. I'm a local politics veteran who talks about lo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:44.093937Z","level":"info","event":"✅ Inserted @anna26458.bsky.social: www.nbcnews.com/politics/ele...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:44.315317Z","level":"info","event":"✅ Inserted @redtickseed.bsky.social: i mean discovery, picard and strange new worlds have really questionable politic","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:44.536141Z","level":"info","event":"✅ Inserted @maxhailperin.bsky.social: The Washington Post's roundup of Republican explanations for their drubbing make","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:44.763593Z","level":"info","event":"✅ Inserted @wearecreatedequal.bsky.social: Abortion is healthcare for women. Now women’s lives are at risk because of a bun","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:44.990577Z","level":"info","event":"✅ Inserted @earl2.bsky.social: Trump's bright view of the economy doesn't match what voters are seeing www.nbcn","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:45.212126Z","level":"info","event":"✅ Inserted @red-dog.xyz: I would argue that Camilla Tominey doesn't \"comment on politics for a living\", m","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:45.432491Z","level":"info","event":"✅ Inserted @ianpchristie.bsky.social: Who is advising these people and why are they so bad at policy design and politi","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:45.653677Z","level":"info","event":"✅ Inserted @anxiousrage.blacksky.app: I’m always telling Wiggles that you have to practice to get good at something th","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:48.163614Z","level":"info","event":"✅ Inserted @andrewmceo.bsky.social: \"I want to see what *they* did to my husband.\" It's always about politics for th","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:48.393594Z","level":"info","event":"✅ Inserted @johnrlambert2.bsky.social: 65% instead of 50%","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:48.394702Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:48.395479Z","level":"info","event":"www.nbcnews.com/politics/tru...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:48.617062Z","level":"info","event":"✅ Inserted @andrewwmiller.com: Well well well, not so easy to end the filibuster now is it?","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:48.619567Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:48.620333Z","level":"info","event":"abcnews.go.com/Pol","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:48.839260Z","level":"info","event":"✅ Inserted @jonesmurphy.mastodon.social.ap.brid.gy: Preliminary CNN exit polls found about 64% of Jewish voters cast their ballot fo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:49.062169Z","level":"info","event":"✅ Inserted @seriousness.bsky.social: “I have lived a life dedicated to anti-fascism, anti-racism and anti-Nazism. I t","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:49.284236Z","level":"info","event":"✅ Inserted @beegeesbaby.bsky.social: x.com/trumpgirllov...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:49.287030Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:49.287827Z","level":"info","event":"Listen to his words carefully: \"it will be funded by the","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:49.511754Z","level":"info","event":"✅ Inserted @ukmediachanges.bsky.social: UK Media Watch is back.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:49.512441Z","level":"info","event":"The account will be overseen by Terry from UKCG News wit","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:49.739742Z","level":"info","event":"✅ Inserted @marshalgrouchy.bsky.social: @espinsegall.bsky.social  #The_party_that_cried_Manichean","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:49.740570Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:49.741263Z","level":"info","event":"I wonder whether De","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:49.959528Z","level":"info","event":"✅ Inserted @futurejohan.bsky.social: The problem with politics today is implementation, framework. You can't just che","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:50.178438Z","level":"info","event":"✅ Inserted @natsecsoc.bsky.social: A London Islamic centre has been banned from hosting a Scout group after a Times","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:50.397896Z","level":"info","event":"✅ Inserted @indymediaaus.mastodon.social.ap.brid.gy: Migration lifts everyone's prosperity https://independentaustralia.net/politics/","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:50.618368Z","level":"info","event":"✅ Inserted @kathleenelizabeth.bsky.social: More MPs need to cross.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:50.619337Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:50.620085Z","level":"info","event":"Pierre Poilievre’s brand of maga politics is a baaaaad","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:50.841095Z","level":"info","event":"✅ Inserted @ellcp.bsky.social: unfortunately seeing posts about american politics does not make me understand a","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:51.061854Z","level":"info","event":"✅ Inserted @charlesbaxter.bsky.social: \"Justice Department\"?! #LOLOL","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:51.062351Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:51.062868Z","level":"info","event":"Currently, the United States has no justice depar","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:51.282497Z","level":"info","event":"✅ Inserted @navalairhistory.com: Which in turn reveals why so many people involved in politics seem to be treatin","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:51.504074Z","level":"info","event":"✅ Inserted @shipwreck75.bsky.social: \"Some U.S. officials say there is no need to force out Maduro as long as he agre","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:51.737801Z","level":"info","event":"✅ Inserted @robfordmancs.bsky.social: I know. I am in the sector and work on immigration politics. These are not new c","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:51.957756Z","level":"info","event":"✅ Inserted @thcarter123.bsky.social: Important books on the Catholic right are in the works. Good news, but too littl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:52.177436Z","level":"info","event":"✅ Inserted @awcohen.bsky.social: Link:","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:52.178286Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:52.178679Z","level":"info","event":"www.syracuse.com/politics/cny...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:52.179220Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:52.179462Z","level":"info","event":"Apple News link:","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:52.179753Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:52.180170Z","level":"info","event":"apple.news/ABNiN8J3D","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:52.396562Z","level":"info","event":"✅ Inserted @jbroschek.bsky.social: First draft almost complete.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:52.617822Z","level":"info","event":"✅ Inserted @sturdyalex.bsky.social: I don't know what is more depressing. That the BBC seems to have no clue what de","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:52.838216Z","level":"info","event":"✅ Inserted @radekllundain.bsky.social: And this sheds light on accusations that some are playing \"student politics\". Th","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:53.059778Z","level":"info","event":"✅ Inserted @anna26458.bsky.social: www.nbcnews.com/politics/sup...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:53.281788Z","level":"info","event":"✅ Inserted @yyzhannah.bsky.social: I had been so caught up in baseball I fell behind on other news and politics. Wh","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:53.522018Z","level":"info","event":"✅ Inserted @gcfong.bsky.social: No need to insult me. I hang with a group of both conservative and progressive f","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:53.748794Z","level":"info","event":"✅ Inserted @patriciacampbell.bsky.social: Gotta get rid of right-wing millionaire/billionaire money out of politics.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:53.966623Z","level":"info","event":"✅ Inserted @slc-scott.bsky.social: I am American, and follow politics pretty closely, and have never heard the phra","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:54.185690Z","level":"info","event":"✅ Inserted @flammablethots.bsky.social: agiftfromtodd TicTok #REPOST","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:54.186534Z","level":"info","event":"Original Build a Ballroom song /video","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:54.186975Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:54.187569Z","level":"info","event":"#politics","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:54.411183Z","level":"info","event":"✅ Inserted @pennadem.bsky.social: Americans better wake up & see that when younger, honest people appear in politi","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:54.635493Z","level":"info","event":"✅ Inserted @toppnews.bsky.social:","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:54.637021Z","level":"info","event":"#AI   #Bloomberg   #Goldman Sachs   #London   #politics   #Sachs","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:54.862844Z","level":"info","event":"✅ Inserted @aiverynorth.bsky.social: Florida was built to be a cashcow for the rich.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:54.864125Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:54.865223Z","level":"info","event":"#nature #Florida #hurricane #hu","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:55.093677Z","level":"info","event":"✅ Inserted @heraldscotland.bsky.social: Peter Capaldi this week called @rebeccamccurdy.bsky.social's piece on child pove","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:55.323653Z","level":"info","event":"✅ Inserted @whatstsmglory.bsky.social: And foreign countries and interests can and do tap into those population bases.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:55.548202Z","level":"info","event":"✅ Inserted @joewiederhold47.bsky.social: www.palmerreport.com/politics/the...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:55.769485Z","level":"info","event":"✅ Inserted @natebowling.com: I refuse to believe they actually published that. You're just trolling the TL. N","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:55.992862Z","level":"info","event":"✅ Inserted @dgutting.bsky.social: A Gaggle of pathetic losers.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:55.995585Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:55.997487Z","level":"info","event":"The big issue in the right wing movement today: ho","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:56.216973Z","level":"info","event":"✅ Inserted @mpil.de: 🗓️ Nov 18, 1 PM CET","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:56.218042Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:56.218698Z","level":"info","event":"@danaschmalz.bsky.social (MPIL) on demographic concerns & m","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:56.439814Z","level":"info","event":"✅ Inserted @anna26458.bsky.social: www.nbcnews.com/politics/tru...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:56.664624Z","level":"info","event":"✅ Inserted @cleaningwindows24.bsky.social: Brazil COP30 starting on 10th November. Roadmap now out.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:56.665715Z","level":"info","event":"Baku to Belem. Last Cli","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:56.884201Z","level":"info","event":"✅ Inserted @toppnews.bsky.social:","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:56.884659Z","level":"info","event":"#Claudia Sheinbaum   #Mexico   #Mexico City   #politics   #Sexual Harassment","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:57.107741Z","level":"info","event":"✅ Inserted @anna26458.bsky.social: www.nbcnews.com/politics/ele...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:57.333659Z","level":"info","event":"✅ Inserted @rcamatrix.bsky.social: And still Mone is able to sit in the HoL making our laws and using her influence","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:57.558372Z","level":"info","event":"✅ Inserted @natfinplan.bsky.social: Please get on the phone or e-mail & tell your reps in DC  what you think about I","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:57.786535Z","level":"info","event":"✅ Inserted @davidcavlovic.bsky.social: I have terrible, terrible news for red America www.sfgate.com/politics/art...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:58.015771Z","level":"info","event":"✅ Inserted @scotlandscomrade.bsky.social: I can't wait for @bbcnews-world-rss.bsky.social to be all over this news story.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:58.016426Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:58.235324Z","level":"info","event":"✅ Inserted @robertbohan.bsky.social: I think the mania was pushing at an open door. The comments of media owners have","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:58.457752Z","level":"info","event":"✅ Inserted @genderandjustice.bsky.social: It’s wonderful to see so many of you at the #LEXJointConference ‘A feminist poli","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:58.683390Z","level":"info","event":"✅ Inserted @electheruk.bsky.social: Time to Retire “Bobbing”!","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:58.684150Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:58.684740Z","level":"info","event":"Designed originally to catch the speakers eye - in re","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:58.903869Z","level":"info","event":"✅ Inserted @natfinplan.bsky.social: Put 47 under criminal review. Tell your elected officials to impeach and remove","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:59.141982Z","level":"info","event":"✅ Inserted @ny-news.bsky.social: Zohran Mamdani won by shaking up NYC politics","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:59.143025Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:59.143408Z","level":"info","event":"https://www.europesays.com/us/359","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:59.361866Z","level":"info","event":"✅ Inserted @keithglossop.bsky.social: Am I the only one disturbed by this proposal?","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:59.362601Z","level":"info","event":"www.theguardian.com/politics/202..","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:59.583099Z","level":"info","event":"✅ Inserted @natfinplan.bsky.social: Please tell your elected officials we need to see all unredacted Epstein info.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:59.806320Z","level":"info","event":"✅ Inserted @bmitchellwrites.bsky.social: Children.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:59.806628Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:42:59.806888Z","level":"info","event":"But they're right on one thing. There's no longer any point in trying","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:00.025561Z","level":"info","event":"✅ Inserted @ojtphd.bsky.social: Bernie: The Gold Standard for People Politics sets the record straight!!!","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:00.026177Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:00.026602Z","level":"info","event":"Who a","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:00.246103Z","level":"info","event":"✅ Inserted @amkaz.bsky.social: I really don't understand how anyone justifies using this site if they claim the","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:00.472129Z","level":"info","event":"✅ Inserted @marcusjhu.bsky.social: “The Heritage Foundation is erupting in open revolt against its president, Kevin","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:00.693597Z","level":"info","event":"✅ Inserted @maverickadvocate.bsky.social: Thiel bought himself a VP. Musk bought himself a president.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:00.694901Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:00.695518Z","level":"info","event":"Big donors, parti","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:00.915090Z","level":"info","event":"✅ Inserted @vagrantjourno.bsky.social: Fun fact up the block is my favorite pizza place, Elmhurt, and the elementary sc","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:01.141811Z","level":"info","event":"✅ Inserted @stone-grotto.bsky.social: a) is Minneapolis more left wing than NYC? What’s that based on?  (Its national","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:01.364497Z","level":"info","event":"✅ Inserted @edjennings.bsky.social: Cllr Brady (Lab) says \"actions most align with words,\" as the document talks abo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:01.589752Z","level":"info","event":"✅ Inserted @reader1970.bsky.social: How can people who are so into pro sports ignore politics?","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:01.809564Z","level":"info","event":"✅ Inserted @marcello65.bsky.social: www.theguardian.com/politics/202...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:02.041941Z","level":"info","event":"✅ Inserted @joshcowenmi.bsky.social: Full UT Texas Politics Project poll here 👇","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:02.048341Z","level":"info","event":"texaspolitics.utexas.edu/blog/with-20","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:02.269383Z","level":"info","event":"✅ Inserted @planningtransport.co.uk: It is telling that some of them actually remained in opposition rather than give","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:02.493332Z","level":"info","event":"✅ Inserted @natfinplan.bsky.social: Please get on the phone or e-mail tell your reps in DC what you think about ICE/","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:02.716072Z","level":"info","event":"✅ Inserted @kasumigin.bsky.social: \"no democratic socialism, socialism, lenism, marxism or communism\"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:02.716989Z","level":"info","event":"Might as well","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:02.939916Z","level":"info","event":"✅ Inserted @amberpac.bsky.social: Hakeem is bought and paid for by his donors.    The same donors that also donate","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:03.164206Z","level":"info","event":"✅ Inserted @stephenkb.bsky.social: To return to a common theme, it comes back to “the most useless crop of politici","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:03.385887Z","level":"info","event":"✅ Inserted @midori-2hu.bsky.social: given how rightoids complain about 'identity politics' its really funny seeing h","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:03.610683Z","level":"info","event":"✅ Inserted @natfinplan.bsky.social: If you think this is a good idea for the U.S., tell your elected officials in DC","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:03.833567Z","level":"info","event":"✅ Inserted @gainvestigate.bsky.social: He touts increases in employment of \"American-born workers\" as a sign of his suc","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:04.057503Z","level":"info","event":"✅ Inserted @herdingkitties.bsky.social: Why is it every time a certain sort of man sees a woman in a position of leaders","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:04.281499Z","level":"info","event":"✅ Inserted @jamesparsnips.bsky.social: I doubt Paul could get away with telling potential buyers that the area's full o","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:04.505631Z","level":"info","event":"✅ Inserted @realdemocrat.bsky.social: Mike Johnson - My take on this is how unequipped you are for the position you ar","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:04.727498Z","level":"info","event":"✅ Inserted @lincoln-16.bsky.social: Israel should shut the fuck up and stay out of our politics. No one carès what t","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:04.957824Z","level":"info","event":"✅ Inserted @lolaclare.bsky.social: Great thread on media responsibility in the midst of increasing political polari","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:05.183608Z","level":"info","event":"✅ Inserted @rueshine.bsky.social: I know it has nothing to do with how nice they are as people but I don't think I","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:05.409080Z","level":"info","event":"✅ Inserted @purebaltic.bsky.social: There are indeed limits, that's absolutely core to MMT.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:05.409507Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:05.409925Z","level":"info","event":"You could summarise MM","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:05.629414Z","level":"info","event":"✅ Inserted @somuchcricket.bsky.social: T20 cricket league collapses into chaos is too common for particular comment, bu","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:05.853510Z","level":"info","event":"✅ Inserted @byteseu.bsky.social: New Jersey Voters Signal Move Away from Trump-Era Politics","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:05.854724Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:05.856015Z","level":"info","event":"https://www.byteseu.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:06.077009Z","level":"info","event":"✅ Inserted @billkristolbulwark.bsky.social: Here, if people are interested, is a wide-ranging interview with a couple of Cla","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:06.301540Z","level":"info","event":"✅ Inserted @mbnyc.bsky.social: The Wall Street Journal 11/06/2025","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:06.302517Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:06.303670Z","level":"info","event":"www.wsj.com/politics/pol...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:06.522662Z","level":"info","event":"✅ Inserted @fieryiceskater99.bsky.social: www.theguardian.com/politics/202...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:06.743593Z","level":"info","event":"✅ Inserted @karlnerenberg.bsky.social: rabble.ca/politics/can...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:06.977389Z","level":"info","event":"✅ Inserted @republicofone.bsky.social: Know your enemy..Politics 101!","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:07.198756Z","level":"info","event":"✅ Inserted @katherinettyson.bsky.social: I was elected to a local council at 29 & made leader of a cross party group.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:07.199595Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:07.200007Z","level":"info","event":"Mi","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:07.421538Z","level":"info","event":"✅ Inserted @eaterofsun.bsky.social: On electoral politics fully agree; was gently chiding you on the implicit equati","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:07.643271Z","level":"info","event":"✅ Inserted @hopeful2024.bsky.social: Polarizing and zero-sum politics represents the gop and Trump administration.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:07.644089Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:07.644964Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:07.866811Z","level":"info","event":"✅ Inserted @mainstream-media.bsky.social: High stakes on the high seas as US, China test limits of military power","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:07.867800Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:07.868553Z","level":"info","event":"https:/","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:08.096209Z","level":"info","event":"✅ Inserted @global-news-2024.bsky.social: Breaking: One of two men freed in error hands himself back in as prison governor","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:08.322535Z","level":"info","event":"✅ Inserted @anacweeks.bsky.social: I’m lucky to teach a wonderful group of postgrads studying gender & politics at","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:08.548240Z","level":"info","event":"✅ Inserted @zg4ever.bsky.social: www.motherjones.com/politics/202...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:08.772707Z","level":"info","event":"✅ Inserted @theglassisempty.bsky.social: For a significant number of people currently entering politics it is simply a ne","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:08.998593Z","level":"info","event":"✅ Inserted @lukesteuber.com: Politics palate cleanser","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:09.227510Z","level":"info","event":"✅ Inserted @generalstoreman.bsky.social: i was about to say, i would be terrified to be in the mind of toddler aware of p","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:09.449120Z","level":"info","event":"✅ Inserted @newscorpse.bsky.social: Republicans are still denying this reality: \"Democrats swept key races, as exit","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:09.670860Z","level":"info","event":"✅ Inserted @ntsmith.bsky.social: Seems pretty optimistic that the purported advantages of AI are going to be spre","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:09.894098Z","level":"info","event":"✅ Inserted @bobriensan.bsky.social: Let's hope that the Senate has a backbone \"Senate to vote on legislation to stop","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:12.952849Z","level":"info","event":"✅ Inserted @paolodigroomia.bsky.social: As a UK resident his and Elon’s interference into our politics is taking us to a","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:13.172873Z","level":"info","event":"✅ Inserted @ecocollaborator.bsky.social: Get Israel out of US politics.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:13.398996Z","level":"info","event":"✅ Inserted @socialmedialab.ca: \"In the face of anti-science politics, silence is not without cost. More scienti","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:13.631911Z","level":"info","event":"✅ Inserted @zg4ever.bsky.social: www.motherjones.com/politics/202....","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:13.859948Z","level":"info","event":"✅ Inserted @xx-gothblessyou-xx.bsky.social: I don't like talking about politics, but I have to say that the sentiment agains","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:14.099050Z","level":"info","event":"✅ Inserted @nonnieida.bsky.social: Fire commissioner is there to prevent and fight fires. What’s with all the polit","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:14.326971Z","level":"info","event":"✅ Inserted @nickferran.bsky.social: Progressive politics works only if you stick to your values. If you appease the","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:14.550200Z","level":"info","event":"✅ Inserted @vexwerewolf.bsky.social: Whenever someone asks \"you're gonna end a friendship over POLITICS?!\" I remind t","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:14.781105Z","level":"info","event":"✅ Inserted @mxnsab.bsky.social: To be fair (liberal) politics is kinda cringe.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:15.001769Z","level":"info","event":"✅ Inserted @theubiquitousj-man.bsky.social: Ford government is tainted by what smells like a slush fund...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:15.002535Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:15.002914Z","level":"info","event":"www.thestar.com/","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:15.222658Z","level":"info","event":"✅ Inserted @racoondogbroc.bsky.social: It’s not politics","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:15.224065Z","level":"info","event":" its Maths","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:15.224530Z","level":"info","event":"substack.com/@thedangerou...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:15.443327Z","level":"info","event":"✅ Inserted @ansiblebat.bsky.social: There’s a video of Zohran Mamdani standing on the streets of New York, trying to","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:15.671440Z","level":"info","event":"✅ Inserted @zedecksiew.bsky.social: \"I used to have more anxiety about being co-opted when I made art about national","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:15.897142Z","level":"info","event":"✅ Inserted @superabsorb.bsky.social: Sorry you lost me somewhere between you talking about politics and me slamming t","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:16.150006Z","level":"info","event":"✅ Inserted @show-me-the-hope.bsky.social: DO NOT equate Platner with Zohran Mamdani.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:16.150624Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:16.151234Z","level":"info","event":"GRAHAM PLATNER IS NO MAMDANI.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:16.151523Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:16.151917Z","level":"info","event":"You'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:16.369528Z","level":"info","event":"✅ Inserted @neilfaz.bsky.social: Rich and left wing? Champagne socialist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:16.369975Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:16.370749Z","level":"info","event":"Poor and left wing? Politics of envy","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:16.371185Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:16.371493Z","level":"info","event":"I","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:16.617070Z","level":"info","event":"✅ Inserted @jamiedoucette.bsky.social: A few years ago, we were calling this sort of thing 'postdemocracy'. Mosler rais","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:16.853929Z","level":"info","event":"✅ Inserted @regrah.bsky.social: The Threads drama goes crazy  people. TDLR: small sticker business owner shows T","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:17.077381Z","level":"info","event":"✅ Inserted @mickeymarxclub.bsky.social: American culture influencing our politics","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:17.297820Z","level":"info","event":"✅ Inserted @demwar.bsky.social: The thing that people seem to miss is that the #Mamdani victory is not about his","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:17.519821Z","level":"info","event":"✅ Inserted @moorishgarden.bsky.social: \"[Musk]'s interfering in the free speech of our country and that's why I think w","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:17.749934Z","level":"info","event":"✅ Inserted @ziibiing.com: i’ll be honest, i couldn’t muster any energy to be angry about the sydney sweene","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:17.972311Z","level":"info","event":"✅ Inserted @natfinplan.bsky.social: If you like this post, share it with your reps in DC. It only takes a few minute","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:18.194274Z","level":"info","event":"✅ Inserted @fullyautomatedluxury.com: 2028, btw.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:18.194893Z","level":"info","event":"If you want to overtake him you'll need to start picking a candidate","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:18.413780Z","level":"info","event":"✅ Inserted @jk-myhumbleopinion.bsky.social: Zohran Mamdani represents a kind of politics that scares billionaires. Let's emb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:18.638752Z","level":"info","event":"✅ Inserted @robuptonmusic.bsky.social: Several went into politics, one a chief advisor for a recent prime minister, abl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:18.859724Z","level":"info","event":"✅ Inserted @show-me-the-hope.bsky.social: Except he's NOT in Maine, where it matters most.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:18.860089Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:18.860598Z","level":"info","event":"Cult politics is what we're se","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:19.080761Z","level":"info","event":"✅ Inserted @bystander1.bsky.social: Just when you thought Australian politics couldn't get worse - along comes ....","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:19.302666Z","level":"info","event":"✅ Inserted @natfinplan.bsky.social: You don't have to be on the streets. Get on the phone or e-mail and tell your el","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:19.522703Z","level":"info","event":"✅ Inserted @lameep.bsky.social: Kash Patel fires, then unfires, then retires a couple of FBI agents who worked w","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:19.741360Z","level":"info","event":"✅ Inserted @tweet-by-sea.bsky.social: A survey would confirm this, but the growth in Independents is interesting - ill","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:19.984930Z","level":"info","event":"✅ Inserted @shanerosser.bsky.social: #GBNews","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:19.985329Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:19.985815Z","level":"info","event":"www.gbnews.com/politics/lab...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:20.203995Z","level":"info","event":"✅ Inserted @jamesdaustin.bsky.social: Yes, I think he is. And he's also clearly a politics obsessive and v.online (to","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:20.423509Z","level":"info","event":"✅ Inserted @neil-lewis.bsky.social: That'll be PeReformance politics - great performance, but schit delivery.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:20.642890Z","level":"info","event":"✅ Inserted @mainstream-media.bsky.social: ICE operation prevents ‘nightmares and PTSD’ in massive Texas operation","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:20.643266Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:20.643557Z","level":"info","event":"https:/","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:20.869564Z","level":"info","event":"✅ Inserted @zedecksiew.bsky.social: \"I’m an artist as well as an activist, and how good or bad my politics are is no","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:21.091806Z","level":"info","event":"✅ Inserted @show-me-the-hope.bsky.social: \"He could shoot people on 5th Avenue and I'd stand by him.\"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:21.092604Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:21.092950Z","level":"info","event":"\"It was just locker","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:21.319442Z","level":"info","event":"✅ Inserted @dgoldman.bsky.social: The political class is an elitist class which rules the masses. The rich aren't","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:21.544540Z","level":"info","event":"✅ Inserted @natfinplan.bsky.social: another crazy idea. The 75M who voted against 47 need to get on the phone or e-m","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:21.766695Z","level":"info","event":"✅ Inserted @damcou.bsky.social: There was no need for you to cite \"counterexamples\" from current US politics, be","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:21.986076Z","level":"info","event":"✅ Inserted @sferrara.bsky.social: GOP congresswoman throws massive meltdown after Republicans don’t defend her: ‘R","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:22.208721Z","level":"info","event":"✅ Inserted @robertbohan.bsky.social: Newspapers in the Western World are generally right wing. In the past two decade","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:22.429332Z","level":"info","event":"✅ Inserted @raidpanda.bsky.social: TD;DR : Schumer thinks money fromq some super PACs is more important in politics","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:22.651939Z","level":"info","event":"✅ Inserted @demwar.bsky.social: I was once part of a govt project (as an outsider) and the project was coordinat","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:22.870560Z","level":"info","event":"✅ Inserted @zg4ever.bsky.social: www.motherjones.com/politics/202...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:23.091569Z","level":"info","event":"✅ Inserted @adeighton.bsky.social: This Canadian wonders if abstaining is cowardly, just a political play at a time","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:23.313208Z","level":"info","event":"✅ Inserted @natfinplan.bsky.social: If you agree, don't just agree. Share this with your elected officials/reps in D","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:23.534507Z","level":"info","event":"✅ Inserted @122musicmanagement.com: I feel much the same way re posting about politics.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:23.535110Z","level":"info","event":"But it's there, in every fi","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:23.769247Z","level":"info","event":"✅ Inserted @jqblatte.bsky.social: \"Pollsters\" should be the first people replaced by AI. #business #tech #politics","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:23.993693Z","level":"info","event":"✅ Inserted @paularevere69.bsky.social: ZOHRAN MAMDANI IS A MUSLIM FIRST!!","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:23.994218Z","level":"info","event":"The DSA just laid out a radical plan: force","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:24.214595Z","level":"info","event":"✅ Inserted @elisesanmi07.bsky.social: You probably don't know Justin's wife because i am not her. And i am here for va","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:24.438630Z","level":"info","event":"✅ Inserted @kwa-me.bsky.social: American politics tend to rebound, voters react to real issues, not noise, if yo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:24.660070Z","level":"info","event":"✅ Inserted @show-me-the-hope.bsky.social: Yup. It's just another sign of cult politics.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:24.660678Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:24.661094Z","level":"info","event":"NOTE: I'm not equating Graham Pla","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:24.881041Z","level":"info","event":"✅ Inserted @whodat35.bsky.social: Partial SNAP benefits for November will be more than previously estimated, Trump","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:25.113318Z","level":"info","event":"✅ Inserted @jqblatte.bsky.social: \"The Democrats made me do it. It's all their fault\" is not the winning message D","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:25.348620Z","level":"info","event":"✅ Inserted @vincentsworkisdone.bsky.social: I'm Australian whose observed US politics for around 45 years. Have Kentuckians","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:25.569281Z","level":"info","event":"✅ Inserted @mims.bsky.social: The blue wave witnessed yesterday was almost entirely due to highly motivated vo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:25.793739Z","level":"info","event":"✅ Inserted @dwgelbman.bsky.social: All politics are local","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:26.033680Z","level":"info","event":"✅ Inserted @innoonewetrust.bsky.social: I didn't know GA was NYC? by the way the black voters who put Osoff in office wi","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:26.253618Z","level":"info","event":"✅ Inserted @crisparkle.com: Politics: Many Calling Trump A “Lame Duck”","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:26.254232Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:26.254817Z","level":"info","event":"“Trump told senators at the breakfa","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:26.478240Z","level":"info","event":"✅ Inserted @chiefgyk3d.social.chiefgyk3d.com.ap.brid.gy: It’s kind of annoying seeing how many people after the NYC election still don’t","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:26.704233Z","level":"info","event":"✅ Inserted @ghbetbeze.bsky.social: While it is easy to get submerged in negative news, some days still shine bright","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:26.930467Z","level":"info","event":"✅ Inserted @lavenderbean.bsky.social: I know this is supposed to be the standard centrist conceit that provincial work","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:27.149965Z","level":"info","event":"✅ Inserted @rorykoehler.bsky.social: We have had 15 years of identity politics and look who is gaining power. Mamdani","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:27.372555Z","level":"info","event":"✅ Inserted @global-news-2024.bsky.social: Breaking: Prison governors criticise Tories for exploiting release errors, sayin","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:27.606318Z","level":"info","event":"✅ Inserted @eddwilson.bsky.social: Prison Governors Association criticises Tories for exploiting release errors, sa","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:27.831832Z","level":"info","event":"✅ Inserted @notyournegro.blacksky.app: Every morning I wake up dreading going to this toxic ass job.  Every step forwar","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:28.057928Z","level":"info","event":"✅ Inserted @guwonder.bsky.social: One of the wealthiest guys in NYC owns a chain of grocery stores: Catsimatidis.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:28.285072Z","level":"info","event":"✅ Inserted @durrellb.bsky.social: It's so dumb. Secure the title and then get into the politics of fairness.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:28.508075Z","level":"info","event":"✅ Inserted @catanonim.me: ~ Death of Criticality: Using ignorance as a tool of control ~","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:28.509124Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:28.509680Z","level":"info","event":"https://northeas","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:28.735396Z","level":"info","event":"✅ Inserted @conflicts.bsky.social: What Prop Q’s defeat says about Austin’s current politics","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:28.736084Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:28.737701Z","level":"info","event":"https://www.europesay","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:28.958892Z","level":"info","event":"✅ Inserted @show-me-the-hope.bsky.social: Graham Platner says all the words we're so desperate to hear.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:28.959658Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:28.960275Z","level":"info","event":"So every red flag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:29.179981Z","level":"info","event":"✅ Inserted @shanerosser.bsky.social: #GBNews","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:29.181264Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:29.182077Z","level":"info","event":"www.gbnews.com/politics/ell...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:29.400141Z","level":"info","event":"✅ Inserted @nordicstoday.bsky.social: Swedish politicians still face threats. New report reveals a persistent democrat","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:29.626743Z","level":"info","event":"✅ Inserted @dbred.bsky.social: Trump was laughed at and rejected by Dems and some Republicans when he entered p","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:29.860620Z","level":"info","event":"✅ Inserted @europesays.bsky.social: What Prop Q’s defeat says about Austin’s current politics","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:29.861105Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:29.861689Z","level":"info","event":"https://www.europesay","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:30.080132Z","level":"info","event":"✅ Inserted @historygonewilder.bsky.social: On this day in History, November 6, 1860 – Abraham Lincoln was elected the 16th","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:30.301643Z","level":"info","event":"✅ Inserted @eupolitics.bsky.social: What Prop Q’s defeat says about Austin’s current politics","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:30.302130Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:30.302575Z","level":"info","event":"https://www.europesay","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:30.522249Z","level":"info","event":"✅ Inserted @davidcoletto.bsky.social: A budget launch upstaged by a political bombshell.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:30.522935Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:30.523495Z","level":"info","event":"I joined Sean Speer and Aman","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:30.745040Z","level":"info","event":"✅ Inserted @morrowjamesadam.bsky.social: How Fascism Works:","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:30.748255Z","level":"info","event":"The Politics of Us and Them","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:30.748990Z","level":"info","event":"by JASON STANLEY (2018)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:30.749397Z","level":"info","event":"www.good","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:30.966500Z","level":"info","event":"✅ Inserted @tsegerblom.bsky.social: www.wsj.com/politics/pol...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:31.187813Z","level":"info","event":"✅ Inserted @krystlewatson.bsky.social: He’s such a brilliant example of how privilege will shift you Right even if you","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:31.411538Z","level":"info","event":"✅ Inserted @johnmichaelhistory.bsky.social: A slightly late #OnThisDay. On 6 November 1980 Sir David Stuart Beattie was swor","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:31.637822Z","level":"info","event":"✅ Inserted @sferrara.bsky.social: @indivisiblecortcty.bsky.social It took these folks long enough ... www.syracuse","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:31.857435Z","level":"info","event":"✅ Inserted @devcorporate.bsky.social: AI has never experienced clunky enterprise software at 11 PM while racing to clo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:32.079643Z","level":"info","event":"✅ Inserted @denise2200.bsky.social: Everyone is entitled to their opinion, but faith shouldn’t be mixed with hate or","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:32.306782Z","level":"info","event":"✅ Inserted @show-me-the-hope.bsky.social: Again, \"No, I don't care about the fucking tattoo\" is the new \"He could shoot pe","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:32.527960Z","level":"info","event":"✅ Inserted @bob00048.bsky.social: I have terrible, terrible news for red America www.sfgate.com/politics/art...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:32.747836Z","level":"info","event":"✅ Inserted @jayemm123.bsky.social: What about all the “Friends of Israel”?in WM who are taking blood-money to promo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:32.970916Z","level":"info","event":"✅ Inserted @realworldrj.bsky.social: Americans are correct: \"The Supreme Court’s favorability ratings are at a three","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:33.189023Z","level":"info","event":"✅ Inserted @chessercat.bsky.social: one of my closest friends became involved in politics as a hokie","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:33.410542Z","level":"info","event":"✅ Inserted @mikestarace.bsky.social: “Tonight,” he said, “against all odds, we have grasped it. The future is in our","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:33.635293Z","level":"info","event":"✅ Inserted @thedreadedlurgy.bsky.social: The Tories came up with the notion of 'the Politics of Envy' 15 years ago (I thi","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:33.860146Z","level":"info","event":"✅ Inserted @issblog.bsky.social: 💡 The Politics of Food and Digital Technologies in Changing Global and Local Cri","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:34.086402Z","level":"info","event":"✅ Inserted @paulwinerbenitzak.bsky.social: Among those on the Left here in France now claiming Mamdani is them is a group c","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:34.325175Z","level":"info","event":"✅ Inserted @juntaletras.bsky.social: American Stablishment politics are all about buzzwords.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:34.325704Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:34.326232Z","level":"info","event":"\"Terrorism, socialism,","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:36.984445Z","level":"info","event":"✅ Inserted @adkraine.bsky.social: I really get the sense that a lot of them went into politics because they could","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:37.206410Z","level":"info","event":"✅ Inserted @twistedbyknaves.bsky.social: If democracy was working properly, it wouldn't be vulnerable to a few players.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:37.207507Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:37.428076Z","level":"info","event":"✅ Inserted @maqusan.bsky.social: Before you start cheering, some reminders: Over 90% of Australian energy generat","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:37.661972Z","level":"info","event":"✅ Inserted @matthew-toledo.bsky.social: Trump is starving millions over the holidays to reduce taxes on the rich and str","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:37.887438Z","level":"info","event":"✅ Inserted @lordboise.bsky.social: Bingo.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:37.888018Z","level":"info","event":"Biden managed to budget 4 years of subsidies using the Covid-19 epidemic","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:38.113898Z","level":"info","event":"✅ Inserted @germannerd.bsky.social: it's never gonna be that number, but paying Musk anything at this point is just","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:38.333200Z","level":"info","event":"✅ Inserted @tristamshanty.bsky.social: Senate to vote on legislation to stop unauthorized war against Venezuela – US po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:38.554880Z","level":"info","event":"✅ Inserted @jjindc.bsky.social: The furor began after Carlson invited Nick Fuentes, a white nationalist who rout","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:38.784103Z","level":"info","event":"✅ Inserted @djnoneya.bsky.social: Book Talk: Carol Leonnig and Aaron C. Davis — INJUSTICE - with Mary Louise Kelly","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:39.003695Z","level":"info","event":"✅ Inserted @cgcel.bsky.social: Trump & the oval office","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:39.006977Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:39.008539Z","level":"info","event":"www.reddit.com/r/politics/s...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:39.230322Z","level":"info","event":"✅ Inserted @terry-scott.bsky.social: I've noticed the MAGA GOP aren't really good at long term critical thinking abou","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:39.450799Z","level":"info","event":"✅ Inserted @tommyboy0690.bsky.social: Last night was an even bigger win for the Democrats than we thought www.palmerre","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:39.675221Z","level":"info","event":"✅ Inserted @show-me-the-hope.bsky.social: True. But while charisma may be important in politics, it's also incredibly dang","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:39.894131Z","level":"info","event":"✅ Inserted @melodyyoung.bsky.social: Why don't you leave American politics and go get a government job in Israel then","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:40.114775Z","level":"info","event":"✅ Inserted @maxanglia.bsky.social: Sometime I wonder if anyone here has worked in politics or a major global corpor","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:40.338074Z","level":"info","event":"✅ Inserted @crisparkle.com: Politics: Senator Ted Cruz Warned Republicans To Pay Attention To Rallies","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:40.339074Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:40.339386Z","level":"info","event":"“Cruz","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:40.560242Z","level":"info","event":"✅ Inserted @johnmichaelhistory.bsky.social: #OnThisDay 6 November 1951 Sir Charles Henry Gairdner was sworn in as the 21st G","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:40.783176Z","level":"info","event":"✅ Inserted @my2centsay.bsky.social: RIGHT?","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:40.783768Z","level":"info","event":"We have this now.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:40.784395Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:40.784831Z","level":"info","event":"Mamdani is an American Jesus!","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:40.785283Z","level":"info","event":"He will transform Americ","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:41.009157Z","level":"info","event":"✅ Inserted @elizabethtaylor47.bsky.social: +the fact that the press constantly lavishes praise on his awful politics does m","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:41.249005Z","level":"info","event":"✅ Inserted @tmnc.bsky.social: heathercoxrichardson.substack.com/p/november-5...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:41.475031Z","level":"info","event":"✅ Inserted @14041970.bsky.social: www.breitbart.com/politics/202...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:41.701532Z","level":"info","event":"✅ Inserted @juandinner.bsky.social: The Macron strategy is to win the *second round of the election* after the small","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:41.928295Z","level":"info","event":"✅ Inserted @andymuirhd.bsky.social: FIFA’s New Peace Prize: A Trophy of Hypocrisy and Politics","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:41.929305Z","level":"info","event":"www.andymuirhead.com/","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:42.153182Z","level":"info","event":"✅ Inserted @angelalangford81.bsky.social: That should prove to anyone that people matter. The US Constitution starts off a","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:42.375984Z","level":"info","event":"✅ Inserted @socialtwerk.bsky.social: Yeah there's another article where he clarifies that \"it needs additional work\"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:42.599808Z","level":"info","event":"✅ Inserted @islamicsocialist.bsky.social: Zohran Mamdani winning is all the proof you need to know that the American peopl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:42.822606Z","level":"info","event":"✅ Inserted @mainstream-media.bsky.social: Election reflection: 'Democrats flipped the script' on affordability in ballot b","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:43.050633Z","level":"info","event":"✅ Inserted @mainstream-media.bsky.social: What Jay Jones' victory means for Democrats and the 'new era of violent rhetoric","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:43.275377Z","level":"info","event":"✅ Inserted @mainstream-media.bsky.social: Iraq War vet running for US Senate says he won’t mourn Dick Cheney","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:43.277259Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:43.277704Z","level":"info","event":"https://www.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:43.513532Z","level":"info","event":"✅ Inserted @sl25.bsky.social: Dems have done an AMAZING job of capturing the black vote.  In 2026, they need t","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:43.736897Z","level":"info","event":"✅ Inserted @pcreporter.bsky.social: Safe to say nat’l politics are home roost in the locals. Best to change your tun","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:43.960645Z","level":"info","event":"✅ Inserted @bluesky.awakari.com: Trump says Mamdani must ‘respect’ Washington, wants New York to succeed www.alja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:44.199836Z","level":"info","event":"✅ Inserted @heresy.bsky.social: lmao","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:44.200805Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:44.201736Z","level":"info","event":"\"council’s cabinet member for social care owns private care company\"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:44.202380Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:44.202739Z","level":"info","event":"www.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:44.421272Z","level":"info","event":"✅ Inserted @tommyboy0690.bsky.social: Trump just got his ass handed to him www.palmerreport.com/politics/tru...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:44.641443Z","level":"info","event":"✅ Inserted @natty4bumpo.bsky.social: www.theguardian.com/politics/liv...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:44.861842Z","level":"info","event":"✅ Inserted @chumleyprelude.bsky.social: So perhaps errors in spec/procurement, or as you say - politics in background…","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:45.094849Z","level":"info","event":"✅ Inserted @politicsjournal.bsky.social: 1/3. New Article!","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:45.096015Z","level":"info","event":"\"Extracting employability: Closing the widening participation","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:45.317028Z","level":"info","event":"✅ Inserted @natty4bumpo.bsky.social: www.theguardian.com/politics/202...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:45.536877Z","level":"info","event":"✅ Inserted @natty4bumpo.bsky.social: www.theguardian.com/politics/202...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:45.756756Z","level":"info","event":"✅ Inserted @thejohnberry.bsky.social: Literally five minutes spent on the Wikipedia Green politics page would save the","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:45.990835Z","level":"info","event":"✅ Inserted @natty4bumpo.bsky.social: Questions about potential conflict of interest as council’s cabinet member for s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:46.211761Z","level":"info","event":"✅ Inserted @droddman.bsky.social: The reason MAGA an Rapepublicans are afraid of Mamdani isn’t his ethnicity, poli","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:46.450146Z","level":"info","event":"✅ Inserted @adamcobb.bsky.social: Yeah, he's probably more similar to your average politics watcher on here, at le","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:46.671643Z","level":"info","event":"✅ Inserted @montyofdodgington.bsky.social: Don't allow Elon Musk to interfere in British politics!","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:46.672198Z","level":"info","event":"news.sky.com/story/the-","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:46.894418Z","level":"info","event":"✅ Inserted @rogerday.bsky.social: He's riffing on the old Enoch Powell idea that politics, in his grand scheme of","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:47.120356Z","level":"info","event":"✅ Inserted @johnmichaelhistory.bsky.social: #OnThisDay 6 November 1883 Sir Anthony Musgrave was sworn in as the 6th Governor","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:47.341523Z","level":"info","event":"✅ Inserted @maliwaka.bsky.social: there was never a time to be politely silent in politics. only the ineffective a","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:47.589843Z","level":"info","event":"✅ Inserted @civics-teacher.bsky.social: “So that to me is the essence of wokeness that you see in all of its other varia","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:47.818198Z","level":"info","event":"✅ Inserted @tommyboy0690.bsky.social: The wrong side of history www.palmerreport.com/politics/the...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:48.068494Z","level":"info","event":"✅ Inserted @indatrees.bsky.social: \"we won because we insisted that no longer would politics be something that is d","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:48.289053Z","level":"info","event":"✅ Inserted @moviefanforever.bsky.social: Trump ramps up pressure on his own party to nix the #filibuster as #shutdown dra","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:48.512774Z","level":"info","event":"✅ Inserted @pinatapunch.bsky.social: they're out there.. everyone knows at least one guy like that. some awful unwash","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:48.733624Z","level":"info","event":"✅ Inserted @chrisrivers50.bsky.social: Jezza’s Autumn/Winter conference takes shape…","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:48.734673Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:48.735292Z","level":"info","event":"www.newstatesman.com/politics/uk-","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:48.956013Z","level":"info","event":"✅ Inserted @egrettt.bsky.social:  👇 👀","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:48.956702Z","level":"info","event":"“It is time for the English to ally with the hard men, like Tommy Robinson,","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:49.180643Z","level":"info","event":"✅ Inserted @madamepestilence.bsky.social: i guess my father didn't expect that i would actually read it","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:49.181220Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:49.181679Z","level":"info","event":"in its entirety","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:49.182016Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:49.182253Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:49.400127Z","level":"info","event":"✅ Inserted @tommyboy0690.bsky.social: I don't think Trump is winning this one www.palmerreport.com/politics/i-d...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:49.628761Z","level":"info","event":"✅ Inserted @sgraphs.bsky.social: The future lies in #pluriversality. Either you resist it or become part of it. W","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:49.857596Z","level":"info","event":"✅ Inserted @robertbohan.bsky.social: Nope - they are above politics or at least that’s the modern tradition. Michael","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:50.075898Z","level":"info","event":"✅ Inserted @wesfryer.com: If you're ever interested in peering into my brain, check out my recent Pinboard","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:50.294853Z","level":"info","event":"✅ Inserted @snufkinlib.bsky.social: I like it because it reminds me of speaking to my parents about politics","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:50.530954Z","level":"info","event":"✅ Inserted @free-press.mstdn.social.ap.brid.gy: BREAKING NEWS!","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:50.531545Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:50.532306Z","level":"info","event":"Nvidia CEO Jensen Huang NOW says China 'will win' the AI race ag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:50.752645Z","level":"info","event":"✅ Inserted @milkysnail105.bsky.social: I think America will become a “oligarchical” society though as tech has too much","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:50.973546Z","level":"info","event":"✅ Inserted @catalannews.com: 🚫 Pro-independence Junts to veto all Spanish government-proposed laws in Congres","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:51.209408Z","level":"info","event":"✅ Inserted @dudejeq18.bsky.social: I want to live in Virginia! First it was California... expensive, then Colorado","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:51.428100Z","level":"info","event":"✅ Inserted @marlinebowers1.bsky.social: www.rollingstone.com/politics/pol...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:51.655990Z","level":"info","event":"✅ Inserted @brooksosborne.bsky.social: These wins like mamdani serve as an example/ other wins show us democrats / left","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:51.880319Z","level":"info","event":"✅ Inserted @pceebee23.bsky.social: no fan of the Libs .. but they and the Greens are right ... this bill stunk to h","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:52.131137Z","level":"info","event":"✅ Inserted @marlinebowers1.bsky.social: www.motherjones.com/politics/202...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:52.371913Z","level":"info","event":"✅ Inserted @jamesdaustin.bsky.social: Yes, I think it's *far* harder for Streeting to pull this sort of approach off.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:52.596254Z","level":"info","event":"✅ Inserted @newnarrative.bsky.social: President Trump needs five votes at the Supreme Court if he wants to maintain th","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:52.829244Z","level":"info","event":"✅ Inserted @theadambeam.bsky.social: Today's Politically Georgia newsletter:","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:52.829999Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:52.830525Z","level":"info","event":"- Governor hopefuls focus on affordabi","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:53.095810Z","level":"info","event":"✅ Inserted @djuschka.bsky.social: @premierscottmoe.bsky.social and the Sask party are underfunding wildfire fighti","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:53.352709Z","level":"info","event":"✅ Inserted @stevellano.bsky.social: Some #rhetorical thoughts on the NJ Governor’s race. #politics","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:53.353595Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:53.354351Z","level":"info","event":"open.substack.co","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:53.609714Z","level":"info","event":"✅ Inserted @melodymp.bsky.social: The number of things one must learn about and become expert in as an out, transi","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:53.872776Z","level":"info","event":"✅ Inserted @johnmichaelhistory.bsky.social: #OnThisDay 6 November 1866 James Thomas Manton was recalled as Acting Government","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:54.112692Z","level":"info","event":"✅ Inserted @newnarrative.bsky.social: The Trump administration is still deciding whether to push Venezuelan President","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:54.342190Z","level":"info","event":"✅ Inserted @derekbryant.bsky.social: Inside the effort to recast Jefferson as an abolitionist at his memorial - Washi","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:54.564824Z","level":"info","event":"✅ Inserted @manqueman.bsky.social: \"“And we won because we insisted that no longer would politics be something that","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:54.785498Z","level":"info","event":"✅ Inserted @gavin-in-brussels.bsky.social: Trump says Mamdani must ‘respect’ Washington, wants New York to succeed www.alja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:55.040232Z","level":"info","event":"✅ Inserted @emilybell.bsky.social: WTAF is this? I guess podcasters have to hustle, but you are Britain’s biggest p","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:55.259824Z","level":"info","event":"✅ Inserted @georgeeaton.bsky.social: Reform’s return to Thatcherism – how the party’s flirtation with statist economi","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:55.495348Z","level":"info","event":"✅ Inserted @crisparkle.com: Politics: Johnson Goes Into Unknown Territory","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:55.497001Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:55.498598Z","level":"info","event":"“But I think the longer this dra","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:55.723331Z","level":"info","event":"✅ Inserted @matthewpb.bsky.social: I’m talking about a guy who wasn’t in any way Irish at all though!","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:55.724073Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:55.724496Z","level":"info","event":"These days C","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:55.962251Z","level":"info","event":"✅ Inserted @allmycircus.bsky.social: Strong 'didn't think leopards would eat my face' vibes from the Reform voters qu","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:56.204994Z","level":"info","event":"✅ Inserted @newnarrative.bsky.social: Economic Anger Once Again Punishes the Party in Power","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:56.205510Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:56.205916Z","level":"info","event":"www.wsj.com/politics/ele.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:56.445240Z","level":"info","event":"✅ Inserted @magssgp.bsky.social: Feeling a bit more hopefully about politics this week? Let's channel that into e","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:56.665891Z","level":"info","event":"✅ Inserted @gadgetry.bsky.social: Bought a cheap (relatively) second-hand EV and thought must at least get lower a","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:56.893627Z","level":"info","event":"✅ Inserted @idiokratie.bsky.social: All these billionaires donated far more money to politics to stop Mamdani than h","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:57.114518Z","level":"info","event":"✅ Inserted @noelledunphy.bsky.social: www.facebook.com/share/v/1BjW...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:57.115222Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:57.115775Z","level":"info","event":"The #pendulum swung to the other #side and #De","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:57.334704Z","level":"info","event":"✅ Inserted @julijuxtaposed.bsky.social: “This is a column about political honesty… I have an inkling that our politics i","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:57.556413Z","level":"info","event":"✅ Inserted @crisparkle.com: Politics: GOP No Longer Know How To Govern; Longest Shutdown","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:57.557175Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:57.557620Z","level":"info","event":"“With the shutdown","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:57.779674Z","level":"info","event":"✅ Inserted @safeinside.bsky.social: and if you try and talk to friends about it you immediately get shut down with \"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:58.000200Z","level":"info","event":"✅ Inserted @russellbruce.bsky.social: www.heraldscotland.com/politics/vie...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:58.001143Z","level":"info","event":"A powerful and important read","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:58.224964Z","level":"info","event":"✅ Inserted @justinbowie1997.bsky.social: www.pressandjournal.co.uk/fp/politics/...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:58.226338Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:58.227670Z","level":"info","event":"A veteran engineer who oversaw the co","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:58.455883Z","level":"info","event":"✅ Inserted @raccoon.techhub.social.ap.brid.gy: @roque","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:58.456991Z","level":"info","event":"Ramaswami recently said that he thought the identity politics were a losi","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:58.678677Z","level":"info","event":"✅ Inserted @europesays.bsky.social: Senate to vote on legislation to stop unauthorized war against Venezuela – US po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:58.903006Z","level":"info","event":"✅ Inserted @onpolitics.news: The Future Requires a Politics of Relationality - resilience","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:58.904556Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:58.905857Z","level":"info","event":"#society #society","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:43:59.130415Z","level":"info","event":"✅ Inserted @rentouljohn.bsky.social: Support for McSweeney/Starmer’s “Macron” strategy of forcing Lib Dems and Greens","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:01.679319Z","level":"info","event":"✅ Inserted @oneshotrecords.bsky.social: It’s all boogie man politics. That is all the republicans have fear and loathing","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:01.901310Z","level":"info","event":"✅ Inserted @europesays.bsky.social: Senate to vote on legislation to stop unauthorized war against Venezuela – US po","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:02.124003Z","level":"info","event":"✅ Inserted @jonblund02.bsky.social: «To advance beyond New York politics, it’s not just the Republicans he’ll have t","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:02.346516Z","level":"info","event":"✅ Inserted @thebagel-lord.bsky.social: His victory is proof that even with corrupt money in politics, a candidate that","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:02.567358Z","level":"info","event":"✅ Inserted @joshwesterling.bsky.social: Failure of imagination from politicians and commentators dismissing any lessons","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:02.786646Z","level":"info","event":"✅ Inserted @derekbryant.bsky.social: Republicans shaken by election losses — and split on how to fix things","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:02.787436Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:02.788037Z","level":"info","event":"www.wash","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:03.007814Z","level":"info","event":"✅ Inserted @dominic11b4.bsky.social: Side note,  I believe that a lot of reactionary politics ends up looking idiotic","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:03.227396Z","level":"info","event":"✅ Inserted @jeffjarvis.bsky.social: They're shooting at each other. Good.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:03.228075Z","level":"info","event":"Heritage staff in open revolt over leader","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:03.450875Z","level":"info","event":"✅ Inserted @martincjones.com: \"The green transition on our roads is happening far too slowly for the Albanese","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:03.670022Z","level":"info","event":"✅ Inserted @derekbryant.bsky.social: Heritage staff in open revolt over leader’s defense of Tucker Carlson","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:03.670877Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:03.671305Z","level":"info","event":"www.washi","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:03.898379Z","level":"info","event":"✅ Inserted @cameras4acc.bsky.social: I don't know what to tell you. I wish we'd had an undeniable candidate by now. T","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:04.118227Z","level":"info","event":"✅ Inserted @cameras4acc.bsky.social: I don't know what to tell you. I wish we'd had an undeniable candidate by now. T","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:04.339754Z","level":"info","event":"✅ Inserted @charlierichmond.bsky.social: Lancashire’s Reform-run council plans to close care homes and day centres | Refo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:04.560082Z","level":"info","event":"✅ Inserted @johnmichaelhistory.bsky.social: #OnThisDay 6 November 1429 Henry VI was crowned as King of England and Lord of I","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:04.792190Z","level":"info","event":"✅ Inserted @jc-allen.bsky.social: Schumer walked a political tight rope between pleasing his corporate donors and","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:05.016272Z","level":"info","event":"✅ Inserted @cowgirlshebop.bsky.social: Ngl talking about politics and politicians like it’s a sport sounds kinda cringe","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:05.239545Z","level":"info","event":"✅ Inserted @themobilebroker.bsky.social: 🍞 Millions of Americans face empty plates this month as SNAP benefits are cut ne","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:05.464240Z","level":"info","event":"✅ Inserted @actasociologica.bsky.social: In the first article,","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:05.464800Z","level":"info","event":"@aludvig.bsky.social and Troels Krarup question if the so","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:05.686890Z","level":"info","event":"✅ Inserted @dodgerfanla.bsky.social: I think a lot of people forget how some small cultural thing makes someone a dem","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:05.912070Z","level":"info","event":"✅ Inserted @seodigital123.bsky.social: Social Science Journal","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:05.912934Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:05.913812Z","level":"info","event":"penzu.com/public/5bb08...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:05.915338Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:05.916184Z","level":"info","event":"A Social Science Journal pub","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:06.136366Z","level":"info","event":"✅ Inserted @darren157.bsky.social: I rarely do politics on social media but this is an outstanding piece of journal","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:06.359966Z","level":"info","event":"✅ Inserted @jbl23.bsky.social: Performance journalism like performance politics at the best it’s distasteful bu","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:06.605448Z","level":"info","event":"✅ Inserted @mcdaragh.bsky.social: It kind of boils down to \"is the government more incompetent on policy than poli","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:06.833205Z","level":"info","event":"✅ Inserted @peldrigal.bsky.social: I thought that society was politics  :(","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:07.045254Z","level":"info","event":"✅ Inserted @margoways.bsky.social: HCR writes about Mamdani’s acceptance speech, a speech reminding us that in Amer","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:07.265343Z","level":"info","event":"✅ Inserted @hexagonal.bsky.social: The show had excellent comedy writing, but people forget the theme was completel","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:07.487122Z","level":"info","event":"✅ Inserted @newshoundai.bsky.social: Katter began his political career in the Queensland parliament before transition","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:07.711561Z","level":"info","event":"✅ Inserted @newshoundai.bsky.social: During the unveiling, Albanese highlighted Katter's unique presence in Australia","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:07.938599Z","level":"info","event":"✅ Inserted @fourt4.mastodonapp.uk.ap.brid.gy: [US politics]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:07.939554Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:07.940331Z","level":"info","event":"Killing half a million people just because they have been attacke","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:08.161210Z","level":"info","event":"✅ Inserted @art4theark.bsky.social: Decades of #greenpolitics have made a significant impact, but have fallen short","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:08.383994Z","level":"info","event":"✅ Inserted @newshoundai.bsky.social: Bob Katter Honored with Portrait for 50 Years in Politics","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:08.602860Z","level":"info","event":"✅ Inserted @brandedworldnews.bsky.social:","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:08.603737Z","level":"info","event":"German nurse gets life in jail after killing 10 to reduce work","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:08.604494Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:08.605533Z","level":"info","event":"#WorldNews #Pol","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:08.829935Z","level":"info","event":"✅ Inserted @gavin-in-brussels.bsky.social: How Elon Musk is boosting the British far right news.sky.com/story/the-x-... #Un","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:09.050229Z","level":"info","event":"✅ Inserted @learningcommunity.bsky.social: America's GOP election","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:09.051404Z","level":"info","event":"#news #politics #america","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:09.052190Z","level":"info","event":"youtu.be/5XcYUZmSmLU?...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:09.272200Z","level":"info","event":"✅ Inserted @bangintocake.bsky.social: They object when we talk about non-US politics, they object when we talk about U","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:09.493982Z","level":"info","event":"✅ Inserted @chiefgyk3d.com: When are people going to realize that there is a difference between being agains","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:09.714589Z","level":"info","event":"✅ Inserted @karluchipa.bsky.social: #Republican leaders - oblivious to what's best for their constituents: affordabl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:09.934477Z","level":"info","event":"✅ Inserted @dughlas1.bsky.social: I work in education and it's been made very plain to me, over the last decade, t","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:10.184966Z","level":"info","event":"✅ Inserted @viviennesoton.bsky.social: If I was asked, I would probably have to say I don’t know enough about it. I onl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:10.405407Z","level":"info","event":"✅ Inserted @victorytwin.bsky.social: Omeed Malik on the MAGA/MAHA partnership that’s reshaping American politics, and","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:10.633064Z","level":"info","event":"✅ Inserted @bluesky.awakari.com: Commentary: American politics needs a Hollywood ending In a Hollywood movie, a s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:10.854393Z","level":"info","event":"✅ Inserted @belliled.bsky.social: I have zero faith in the corrupt SCOTUS. Tariffs are a tax on the American consu","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:11.077612Z","level":"info","event":"✅ Inserted @bbottone.bsky.social: #HollywoodCiak 2372 #Drop #ChristopherLandon #MeghannFahy #BrandonSklenar #Viole","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:11.311919Z","level":"info","event":"✅ Inserted @chiefgyk3d.com: Hi, there I’m Jewish, when are people going to realize that there is a differenc","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:11.536267Z","level":"info","event":"✅ Inserted @johnmichaelhistory.bsky.social: #OnThisDay 6 November 1391 Edmund Mortimer, 5th Earl of March was born in New Fo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:11.760455Z","level":"info","event":"✅ Inserted @mikefox065.bsky.social: Tim Walz has been in politics for over a decade. His net worth is under $200000.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:11.983813Z","level":"info","event":"✅ Inserted @mike-umbkm.bsky.social: Ari Melber reports on the string of Democratic wins upending politics on Tuesday","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:12.208172Z","level":"info","event":"✅ Inserted @soulsoothing.bsky.social: Great analysis. As a SEND mum veteran & a marginalised TEP my Qs are:","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:12.208957Z","level":"info","event":"1. who &","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:12.430705Z","level":"info","event":"✅ Inserted @lilibil.bsky.social: Bro, people killed each other of politics for thousands of years. And 15-20 year","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:12.651935Z","level":"info","event":"✅ Inserted @free-press.mstdn.social.ap.brid.gy: Democrats odds to win back the US House in 2026 midterms rises to 71% on Polymar","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:12.874244Z","level":"info","event":"✅ Inserted @johnmanningpct.bsky.social: Why does @teamlabouruk.bsky.social, our great hope - for  restoration of faith &","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:13.094897Z","level":"info","event":"✅ Inserted @savaslab.bsky.social: one wonders who gains in this case and for how long","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:13.096019Z","level":"info","event":"politics is hard but..","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:13.320414Z","level":"info","event":"✅ Inserted @erickbt.bsky.social: FYI","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:13.322170Z","level":"info","event":"It does happen, don’t be naive","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:13.322534Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:13.323033Z","level":"info","event":"When there’s an anti establishment politica","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:13.548869Z","level":"info","event":"✅ Inserted @tundrataoist.bsky.social: We still have a lot of work to do as white women. I think what we can take away","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:13.772529Z","level":"info","event":"✅ Inserted @stephscythes.bsky.social: \"In #California, an overwhelming majority voted to #redistrict, essentially canc","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:13.994978Z","level":"info","event":"✅ Inserted @uk-news.bsky.social: Lammy set to face media as Tories accuse him of ‘dereliction of duty’ over priso","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:14.218002Z","level":"info","event":"✅ Inserted @andrewlawrence.bsky.social: Just joined. Genuinely inspiring politics","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:14.441864Z","level":"info","event":"✅ Inserted @damitman.bsky.social: www.rollingstone.com/politics/pol...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:14.668725Z","level":"info","event":"✅ Inserted @rewerbyor.bsky.social: Just incredible…what an opportunity, last July, to be courageous and really make","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:14.890270Z","level":"info","event":"✅ Inserted @evanurquhart.bsky.social: This is a good story, good work by Sky demonstrating the far right bias of the X","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:15.115004Z","level":"info","event":"✅ Inserted @beconfidentbeyou.bsky.social: BILLIONAIRES & TRILLIONAIRES SHOULD NOT EXIST","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:15.116289Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:15.117413Z","level":"info","event":"Tesla is not worth a pay out that","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:15.338989Z","level":"info","event":"✅ Inserted @sheena-mck.bsky.social: #UrbanGaze #Graffiti #politics","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:15.563881Z","level":"info","event":"✅ Inserted @mrpmharrison.bsky.social: So much politics these days is about authenticity (or at least the performance o","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:15.787859Z","level":"info","event":"✅ Inserted @demand1.bsky.social: Western colonialism in Gaza","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:15.788256Z","level":"info","event":"www.indybay.org/newsitems/20...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:15.788691Z","level":"info","event":"We are facing a mome","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:16.014865Z","level":"info","event":"✅ Inserted @uk-nb.bsky.social: Lammy set to face media as Tories accuse him of ‘dereliction of duty’ over priso","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:16.236893Z","level":"info","event":"✅ Inserted @chrisrivers50.bsky.social: “How long does Kemi Badenoch have left?”","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:16.238161Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:16.239107Z","level":"info","event":"By Rachel Cunliffe","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:16.239881Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:16.240831Z","level":"info","event":"www.newstatesman.c","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:16.459116Z","level":"info","event":"✅ Inserted @vebate.bsky.social: Yup, casey costello met the Irish terf doing a hate speech tour sponsored by the","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:16.681125Z","level":"info","event":"✅ Inserted @lilythedumbonigirl.bsky.social: its so fucked its all basketball, politics and photography on my feed","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:16.916832Z","level":"info","event":"✅ Inserted @kpow70.bsky.social: I had an old man try to talk to me about \"the invasion\" while I was at work, to","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:17.140603Z","level":"info","event":"✅ Inserted @scbankingreview.bsky.social: The South Caucasus is in an economic upswing - strong growth, low inflation, and","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:17.360306Z","level":"info","event":"✅ Inserted @roundshadez.bsky.social: Britain should claim this is foreign politics influencing and just ban it, claim","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:17.580886Z","level":"info","event":"✅ Inserted @toriabanks.bsky.social: Ah yes, the equally unhelpful obstacles of a) unhinged racist opponents, and b)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:17.801537Z","level":"info","event":"✅ Inserted @jsfindlay.bsky.social: No politics just an organized labor governed trust with private equity propertie","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:18.028550Z","level":"info","event":"✅ Inserted @jsfindlay.bsky.social: Politics is the distraction from the control of natural monopolies under governm","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:18.257144Z","level":"info","event":"✅ Inserted @dorianlynskey.bsky.social: Not a member, don't have a vote, no longer host a politics podcast, so my trust","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:18.479469Z","level":"info","event":"✅ Inserted @rajannaidu.bsky.social: On BBC Politics Live #PaulHolden talks about what will be revealed in his new bo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:18.701206Z","level":"info","event":"✅ Inserted @stephenkb.bsky.social: No - sorry I have lost patience. I am willing to accept much about me is weird,","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.701542Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.702157Z","level":"info","event":"🔍 Searching for 'government' in language 'en' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.711956Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.712462Z","level":"info","event":"🔍 Searching for 'election' in language 'en' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.713829Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.714307Z","level":"info","event":"🔍 Searching for 'policy' in language 'en' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.714610Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.728116Z","level":"info","event":"🔍 Searching for 'réforme' in language 'en' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.728511Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.729593Z","level":"info","event":"🔍 Searching for 'war' in language 'en' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.729998Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.730480Z","level":"info","event":"🔍 Searching for 'guerre' in language 'en' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.731170Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.731808Z","level":"info","event":"🔍 Searching for 'politique' in language 'en' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.732474Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.732985Z","level":"info","event":"🔍 Searching for 'gouvernement' in language 'en' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.733444Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.733849Z","level":"info","event":"🔍 Searching for 'élection' in language 'en' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.734165Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.734492Z","level":"info","event":"🔍 Searching for 'politics' in language 'fr' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.734691Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.734889Z","level":"info","event":"🔍 Searching for 'government' in language 'fr' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.735185Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.735386Z","level":"info","event":"🔍 Searching for 'election' in language 'fr' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.735647Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.736027Z","level":"info","event":"🔍 Searching for 'policy' in language 'fr' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.736315Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.736524Z","level":"info","event":"🔍 Searching for 'réforme' in language 'fr' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.736713Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.736921Z","level":"info","event":"🔍 Searching for 'war' in language 'fr' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.737125Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.737243Z","level":"info","event":"🔍 Searching for 'guerre' in language 'fr' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.737379Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.737684Z","level":"info","event":"🔍 Searching for 'politique' in language 'fr' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.737850Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.737969Z","level":"info","event":"🔍 Searching for 'gouvernement' in language 'fr' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.738098Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.738229Z","level":"info","event":"🔍 Searching for 'élection' in language 'fr' …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.738378Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.738578Z","level":"info","event":"📰 Fetching feed from @bbcnews.bsky.social …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.738724Z","level":"info","event":"✅ 0 posts collected from @bbcnews.bsky.social","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.738856Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.738987Z","level":"info","event":"📰 Fetching feed from @reuters.com …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.739132Z","level":"info","event":"✅ 0 posts collected from @reuters.com","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.739284Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.739411Z","level":"info","event":"📰 Fetching feed from @apnews.com …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.739548Z","level":"info","event":"✅ 0 posts collected from @apnews.com","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.739680Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.739799Z","level":"info","event":"📰 Fetching feed from @nytimes.com …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.739920Z","level":"info","event":"✅ 0 posts collected from @nytimes.com","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.740047Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.740180Z","level":"info","event":"📰 Fetching feed from @washingtonpost.com …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.740317Z","level":"info","event":"✅ 0 posts collected from @washingtonpost.com","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.740434Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.740552Z","level":"info","event":"📰 Fetching feed from @lemonde.bsky.social …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.740676Z","level":"info","event":"✅ 0 posts collected from @lemonde.bsky.social","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.740808Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.740934Z","level":"info","event":"📰 Fetching feed from @liberation.bsky.social …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.741069Z","level":"info","event":"✅ 0 posts collected from @liberation.bsky.social","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.741226Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.743258Z","level":"info","event":"📰 Fetching feed from @afp.com …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.743416Z","level":"info","event":"✅ 0 posts collected from @afp.com","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.743599Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.743773Z","level":"info","event":"📰 Fetching feed from @cnbc.com …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.743981Z","level":"info","event":"✅ 0 posts collected from @cnbc.com","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.744480Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.745829Z","level":"info","event":"📰 Fetching feed from @usatoday.com …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.746018Z","level":"info","event":"✅ 0 posts collected from @usatoday.com","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.746216Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.746405Z","level":"info","event":"📰 Fetching feed from @theguardian.com …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.746613Z","level":"info","event":"✅ 0 posts collected from @theguardian.com","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.747019Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.747160Z","level":"info","event":"📰 Fetching feed from @latimes.com …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.755021Z","level":"info","event":"✅ 0 posts collected from @latimes.com","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.755848Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.756631Z","level":"info","event":"📰 Fetching feed from @edition.cnn.com …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.757563Z","level":"info","event":"✅ 0 posts collected from @edition.cnn.com","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.758184Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.759086Z","level":"info","event":"📰 Fetching feed from @wsj.com …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.759832Z","level":"info","event":"✅ 0 posts collected from @wsj.com","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.760136Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.760369Z","level":"info","event":"📰 Fetching feed from @60minutes.bsky.social …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.760616Z","level":"info","event":"✅ 0 posts collected from @60minutes.bsky.social","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.761549Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.761978Z","level":"info","event":"📰 Fetching feed from @france24.com …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.762503Z","level":"info","event":"✅ 0 posts collected from @france24.com","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.762748Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.763373Z","level":"info","event":"📰 Fetching feed from @bfmtv.com …","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.763730Z","level":"info","event":"✅ 0 posts collected from @bfmtv.com","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.764046Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.764910Z","level":"info","event":"💾 Total posts: 500 saved into database collection 'news_posts'.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.765232Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.765576Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.766116Z","level":"info","event":"Task operator:<Task(PythonOperator): fetch_and_save_posts>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:44:19.704992","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

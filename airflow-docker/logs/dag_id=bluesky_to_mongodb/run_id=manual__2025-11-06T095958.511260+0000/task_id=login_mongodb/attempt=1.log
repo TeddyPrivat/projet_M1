@@ -1,0 +1,11 @@
+{"timestamp":"2025-11-06T10:00:00.700504","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-11-06T10:00:00.700938","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/bsky_af_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-11-06T10:00:00.850523Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T10:00:00.852032Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T10:00:00.852402Z","level":"info","event":"Current task name:login_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T10:00:00.852726Z","level":"info","event":"Dag name:bluesky_to_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T10:00:00.853028Z","level":"info","event":"❌ Erreur : variable MONGO_URI introuvable dans le fichier .env.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T10:00:00.853288Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T10:00:00.853550Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T10:00:00.853746Z","level":"info","event":"Task operator:<Task(PythonOperator): login_mongodb>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T10:00:00.813324","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

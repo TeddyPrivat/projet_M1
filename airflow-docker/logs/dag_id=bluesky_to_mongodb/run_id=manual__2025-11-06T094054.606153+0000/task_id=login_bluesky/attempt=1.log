@@ -1,0 +1,12 @@
+{"timestamp":"2025-11-06T09:40:55.861248","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-11-06T09:40:55.861703","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/bsky_af_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-11-06T09:40:56.012636Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T09:40:56.021420Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T09:40:56.021978Z","level":"info","event":"Current task name:login_bluesky","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T09:40:56.022326Z","level":"info","event":"Dag name:bluesky_to_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T09:40:56.022641Z","level":"info","event":"❌ Erreur: identifiant ou mot de passe manquant dans le fichier .env","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T09:40:56.023100Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T09:40:56.025798Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T09:40:56.026087Z","level":"info","event":"Task operator:<Task(PythonOperator): login_bluesky>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T09:40:55.986990","level":"info","event":"Done. Returned value was: False","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-11-06T09:40:55.987168","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019a588a-5ef3-758f-9c1b-baa78b8b145d'), task_id='login_bluesky', dag_id='bluesky_to_mongodb', run_id='manual__2025-11-06T09:40:54.606153+00:00', try_number=1, map_index=-1, hostname='952b6bbc8b23', context_carrier={}, task=<Task(PythonOperator): login_bluesky>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=2, start_date=datetime.datetime(2025, 11, 6, 9, 40, 55, 513462, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}

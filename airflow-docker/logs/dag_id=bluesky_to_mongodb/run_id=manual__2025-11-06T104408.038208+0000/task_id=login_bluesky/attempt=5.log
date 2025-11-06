@@ -1,0 +1,13 @@
+{"timestamp":"2025-11-06T12:21:11.722107","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-11-06T12:21:11.722537","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/bsky_af_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-11-06T12:21:11.850846Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:21:11.854286Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:21:11.854727Z","level":"info","event":"Current task name:login_bluesky","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:21:11.854996Z","level":"info","event":"Dag name:bluesky_to_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:21:12.370485Z","level":"info","event":"🌐 HTTP status: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:21:12.375935Z","level":"info","event":"✅ Login OK — tokens sauvegardés dans token.json","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:21:12.376587","level":"info","event":"Done. Returned value was: True","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-11-06T12:21:12.376997","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019a591d-1b91-76e6-8bcb-5052c949d97e'), task_id='login_bluesky', dag_id='bluesky_to_mongodb', run_id='manual__2025-11-06T10:44:08.038208+00:00', try_number=5, map_index=-1, hostname='8e3623e3851f', context_carrier={}, task=<Task(PythonOperator): login_bluesky>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=6, start_date=datetime.datetime(2025, 11, 6, 12, 21, 11, 334672, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}
+{"timestamp":"2025-11-06T12:21:12.398717Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:21:12.400244Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:21:12.400635Z","level":"info","event":"Task operator:<Task(PythonOperator): login_bluesky>","chan":"stdout","logger":"task"}

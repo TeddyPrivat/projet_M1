@@ -1,0 +1,13 @@
+{"timestamp":"2025-11-06T12:00:00.495669","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-11-06T12:00:00.496266","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/bsky_af_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-11-06T12:00:00.621873Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:00:00.622980Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:00:00.623588Z","level":"info","event":"Current task name:login_bluesky","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:00:00.623909Z","level":"info","event":"Dag name:bluesky_to_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:00:01.155116Z","level":"info","event":"🌐 HTTP status: 200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:00:01.162127Z","level":"info","event":"✅ Login OK — tokens sauvegardés dans token.json","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:00:01.164436Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:00:01.165177Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:00:01.165972Z","level":"info","event":"Task operator:<Task(PythonOperator): login_bluesky>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T12:00:01.162798","level":"info","event":"Done. Returned value was: True","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-11-06T12:00:01.163022","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019a5909-b632-7ea4-a4ac-f76e2cc4d0d6'), task_id='login_bluesky', dag_id='bluesky_to_mongodb', run_id='scheduled__2025-11-06T12:00:00+00:00', try_number=1, map_index=-1, hostname='8e3623e3851f', context_carrier={}, task=<Task(PythonOperator): login_bluesky>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=2, start_date=datetime.datetime(2025, 11, 6, 12, 0, 0, 148576, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}

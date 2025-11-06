@@ -1,0 +1,13 @@
+{"timestamp":"2025-11-06T10:56:41.668834","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-11-06T10:56:41.669399","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/bsky_af_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-11-06T10:56:41.808841Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T10:56:41.810595Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T10:56:41.811016Z","level":"info","event":"Current task name:login_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T10:56:41.811346Z","level":"info","event":"Dag name:bluesky_to_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T10:56:43.157458Z","level":"info","event":"✅ Connected to MongoDB Atlas!","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T10:56:43.158017Z","level":"info","event":"📂 Database: projet_bluesky","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T10:56:43.157746","level":"info","event":"Done. Returned value was: {'status': 'connected', 'database': 'projet_bluesky'}","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-11-06T10:56:43.158007","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019a58cb-285b-705d-8f46-d2410e09fea3'), task_id='login_mongodb', dag_id='bluesky_to_mongodb', run_id='manual__2025-11-06T10:39:53.060926+00:00', try_number=5, map_index=-1, hostname='74c24330234d', context_carrier={}, task=<Task(PythonOperator): login_mongodb>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=4, start_date=datetime.datetime(2025, 11, 6, 10, 56, 41, 291133, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}
+{"timestamp":"2025-11-06T10:56:43.189830Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T10:56:43.190136Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T10:56:43.190356Z","level":"info","event":"Task operator:<Task(PythonOperator): login_mongodb>","chan":"stdout","logger":"task"}

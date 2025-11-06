@@ -1,0 +1,13 @@
+{"timestamp":"2025-11-06T11:53:27.788645","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-11-06T11:53:27.789163","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/bsky_af_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-11-06T11:53:27.932865Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T11:53:27.936276Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T11:53:27.936580Z","level":"info","event":"Current task name:fetch_and_save_posts","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T11:53:27.936829Z","level":"info","event":"Dag name:bluesky_to_mongodb","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T11:53:29.088954Z","level":"info","event":"✅ Connected to MongoDB Atlas!","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T11:53:29.090565Z","level":"info","event":"📂 Database: projet_bluesky","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T11:53:29.092166Z","level":"info","event":"❌ Échec de connexion à MongoDB. Abandon de l’import.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T11:53:29.092964Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T11:53:29.093851Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T11:53:29.094569Z","level":"info","event":"Task operator:<Task(PythonOperator): fetch_and_save_posts>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-11-06T11:53:29.089987","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
