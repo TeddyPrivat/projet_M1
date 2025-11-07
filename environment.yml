@@ -1,0 +1,12 @@
+name: env_projet
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - requests
+  - pymongo
+  - python-dotenv
+  - pip:
+      - apache-airflow==2.10.4
